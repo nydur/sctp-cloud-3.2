@@ -69,4 +69,4 @@ To review the changes made to the file before commiting to `git push`
 
 `git log`
 
-To shows the history of the commits made in the repository
+To show the history of the commits made in the repository
