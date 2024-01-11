@@ -13,7 +13,7 @@ A process to prove your identity when you access your account or the resources.
 
 ---
 
-## Common Github commands
+## Commonly used Github commands
 
 `git version`
 
@@ -25,7 +25,7 @@ Initialise a Git repository in current directory
 
 `git clone <repository-url>`
 
-Clones the repostory from remote to current directory
+Clones the repository from remote to current directory
 
 `git add <file>` or `git add .`
 
@@ -43,7 +43,7 @@ Prepares a new commit for the modified file(s) in the staging area
 
 Pushes the update to the files to the repository
 
-`git pull`
+`git pull` **Likely to be used in a project**
 
 Retrieves any updates to the files in the repository to local directory
 
@@ -51,7 +51,7 @@ Retrieves any updates to the files in the repository to local directory
 
 Checks the available branch in the repository
 
-`git branch <new-branch-name`
+`git branch <new-branch-name>`
 
 Creates a new branch
 
@@ -59,7 +59,7 @@ Creates a new branch
 
 Deletes the specific branch
 
-`git checkout -b <new-branch-name>`
+`git checkout -b <new-branch-name>` **Likely to be used in a project**
 
 Creates and switch to the specific branch
 
@@ -71,7 +71,7 @@ To review the past/previous state of the file
 
 Set the local terminal to prepare any future `git push` from the current branch
 
-`git diff`
+`git diff` **Likely to be used in a project**
 
 To review the changes made to the file before committing to `git push`
 
@@ -79,6 +79,6 @@ To review the changes made to the file before committing to `git push`
 
 To show the history of the commits made in the repository
 
-`git merge <new-branch>`
+`git merge <branch-name>` **Likely to be used in a project**
 
 Combines new branch to main branch
