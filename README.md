@@ -51,9 +51,17 @@ Retrieves any updates to the files in the repository to local directory
 
 Checks the available branch in the repository
 
+`git branch <new-branch-name`
+
+Creates a new branch
+
+`git branch -d <branch-name>`
+
+Deletes the specific branch
+
 `git checkout -b <new-branch-name>`
 
-Switch to the specific branch
+Creates and switch to the specific branch
 
 `git checkout <numbers retrieve from commit history>` or `git main`
 
@@ -65,8 +73,12 @@ Set the local terminal to prepare any future `git push` from the current branch
 
 `git diff`
 
-To review the changes made to the file before commiting to `git push`
+To review the changes made to the file before committing to `git push`
 
 `git log`
 
 To show the history of the commits made in the repository
+
+`git merge <new-branch>`
+
+Combines new branch to main branch
